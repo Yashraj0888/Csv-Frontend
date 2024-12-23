@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Papers Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Research Papers Filter</h1>
+    <div class="controls">
+      <input type="text" id="search-box" placeholder="Search across all columns">
+      <div class="filters">
+        <label>
+          Region:
+          <select id="filter-region">
+            <option value="">All</option>
+          </select>
+        </label>
+        <label>
+          Country:
+          <select id="filter-country">
+            <option value="">All</option>
+          </select>
+        </label>
+        <label>
+          Order Year:
+          <select id="filter-year">
+            <option value="">All</option>
+          </select>
+        </label>
+        <label>
+          Order Priority:
+          <select id="filter-priority">
+            <option value="">All</option>
+          </select>
+        </label>
+        <label>
+          Sales Channel:
+          <select id="filter-channel">
+            <option value="">All</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div id="cards-container" class="cards-container"></div>
+    <button id="export-btn">Export Filtered Data</button>
+  </div>
+ 
+ 
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
